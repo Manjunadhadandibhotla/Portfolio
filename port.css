@@ -84,7 +84,7 @@ section .title::after{
     z-index: 999;
     padding: 25px 0;
     font-family: 'Ubuntu', sans-serif;
-    transition: all 1.2s ease;
+    transition: all 1.5s ease;
 }
 .navbar.sticky{
     padding: 10px 0;
@@ -164,7 +164,7 @@ section .title::after{
     pointer-events: auto;
 }
 .scroll-up-btn:hover{
-    filter: brightness(80%);
+    filter: brightness(60%);
 }
 
 

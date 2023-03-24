@@ -6,13 +6,13 @@ $(document).ready(function () {
         } else {
             $('.navbar').removeClass("sticky");
         }
-
+        
         // scroll-up button show/hide script
-        if (this.scrollY > 500) {
+        /*if (this.scrollY > 500) {
             $('.scroll-up-btn').addClass("show");
         } else {
             $('.scroll-up-btn').removeClass("show");
-        }
+        }*/
     });
 
     // slide-up script
@@ -50,7 +50,7 @@ $(document).ready(function () {
 
     // owl carousel script
     $('.carousel').owlCarousel({
-        margin: 20,
+        margin: 40,
         loop: true,
         autoplay: true,
         autoplayTimeOut: 2000,
